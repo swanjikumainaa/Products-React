@@ -1,0 +1,33 @@
+
+   
+.products {
+ 
+  margin: 2% ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+    
+}
+  .products .add {
+    background-color: #333;
+    color: white;
+    border: none;
+  }
+  .products.view {
+    background-color:#4e4caf;
+    color: white;
+    border: none;
+    float: left;
+  }
+  .products img {
+    width: 100%;
+   
+  }
+  .products h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #4e4caf;
+  } 
+ 
+  
+ 

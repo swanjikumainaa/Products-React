@@ -1,0 +1,41 @@
+.add-product-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color:#4e4caf;
+  }
+  
+  label {
+    font-size: 18px;
+    color:#4e4caf;
+    margin-left: 37%;
+  }
+  
+  input {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color:#4e4caf;
+    color: white;
+    padding: 12px 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 49%;
+    border-style: none;
+  }
+  
+  
