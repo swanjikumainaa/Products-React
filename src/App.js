@@ -2,7 +2,6 @@ import Login from './Login';
 import NavigationBar from './NavigationBar';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Products from './Products'
-import ProductDetailsPage from './ProductDisplay';
 import AddProductForm from './AddProduct';
 import ProductDisplayPage from './ProductDisplay';
 function App() {

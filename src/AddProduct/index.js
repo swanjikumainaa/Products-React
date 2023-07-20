@@ -13,7 +13,7 @@ const AddProductForm = () => {
       <h1>Add Product</h1>
       <form onSubmit={handleSubmit}>
         <label>
-          Name:
+          New Product's Name:
           <input
             type="text"
             value={name}
@@ -22,13 +22,13 @@ const AddProductForm = () => {
         </label>
         <br />
         <label>
-          Price:
-          <input
+          Product's price:          
+        </label>
+        <input
             type="text"
             value={price}
             onChange={(e) => setPrice(e.target.value)}
           />
-        </label>
         <br />
         <Link to={`/products/`} className="btn">
           <button type="submit">Add</button>

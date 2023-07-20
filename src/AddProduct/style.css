@@ -1,8 +1,6 @@
 .add-product-form {
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
+    width:100%;   
+    padding:30px;   
     border-radius: 5px;
 
   }
@@ -31,11 +29,11 @@
   button {
     background-color:#4e4caf;
     color: white;
-    padding: 12px 17px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-left: 49%;
-    border-style: none;
+    padding:10px 15px;
+    border-radius: 10px;      
+    border-style: none;  
+    margin-left: 50%;
+
   }
   
   

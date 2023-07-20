@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 const Products = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -30,16 +25,11 @@ const Products = () => {
     return <h1>Loading...</h1>;
   }
   return (
-    <div>
-      <Link to={`/AddProduct/`} className="btn">
-        <button type="submit" className="add">
-          Add a new product
-        </button>
-      </Link>
+    <div>     
       <div className="products">
         {products.map((item) => (
           <div className="card">
-            <img src={item.images[1]}/>
+            <img src={item.images[1]} alt="Our products images"/>
             <div className="container">
             <h3>{item.title}</h3>
             <h3>Ksh {item.price}</h3>
